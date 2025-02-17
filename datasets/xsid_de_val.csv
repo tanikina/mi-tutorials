@@ -1,0 +1,301 @@
+id	text	intent	slots
+2	Wie heiß ist es ?	weather/find	O B-weather/attribute O O O
+48	Was ist die aktuelle Temperatur in London ?	weather/find	O O O B-datetime B-weather/attribute O B-location O
+121	Soll ich heute einen Mantel tragen ?	weather/find	O O B-datetime O B-weather/attribute O O
+98	Wird es heute sonnig sein ?	weather/find	O O B-datetime B-weather/attribute O O
+11	Wird es nächst Woche regnen	weather/find	O O B-datetime I-datetime B-weather/attribute
+141	Wird es heute in Bordentown Stürme geben	weather/find	O O B-datetime O B-location B-weather/attribute O
+171	was ist die PW-Vorhersage für stürmisches Wetter	weather/find	O O O B-location O B-condition_description O
+44	Wird es heute sonnig ?	weather/find	O O B-datetime B-weather/attribute O
+0	Regnet es heute ?	weather/find	B-weather/attribute O B-datetime O
+86	Wie heiß ist es	weather/find	O B-weather/attribute O O
+9	Wird es heute stürmen ?	weather/find	O O B-datetime B-weather/attribute O
+183	Wie wird das Wetter im Meeres-Nationalpark Insel Bastimentos um zwölf Uhr mittags ?	weather/find	O O O O O B-location I-location I-location O B-datetime I-datetime I-datetime O
+142	was ist die aktuelle Temperatur	weather/find	O O O B-datetime B-weather/attribute
+36	Was ist das Luftfeuchtigkeitslevel heute	weather/find	O O O B-weather/attribute B-datetime
+51	Wie wird der Hitzeindex heute sein ?	weather/find	O O O B-weather/attribute B-datetime O O
+158	Wie wird das Wetter in Arizona am 3 . Oktober	weather/find	O O O O O B-location O B-datetime I-datetime I-datetime
+196	Wird der Wind an meinem jetzigen Standort bis zum Abendessen nachlassen ?	weather/find	O O B-condition_description O O B-location I-location O O B-datetime O O
+220	Soll es um 0 Uhr in der Nähe meines aktuellen Standorts regnen ?	weather/find	O O O B-datetime I-datetime O B-location I-location O B-location I-location O O
+66	sag mir die 3-Tages Wettervorhersage	weather/find	O O O B-datetime O
+136	wird es Donnerstag schneien	weather/find	O O B-datetime B-weather/attribute
+112	wird es heute regnen ?	weather/find	O O B-datetime B-weather/attribute O
+108	wird es morgen heiß	weather/find	O O B-datetime B-weather/attribute
+111	Wird es dieses Wochenende regnen ?	weather/find	O O B-datetime I-datetime B-weather/attribute O
+128	liegt die Temperatur heute unter dem Gefrierpunkt ?	weather/find	O O B-weather/attribute B-datetime B-weather/attribute I-weather/attribute I-weather/attribute O
+119	Welche Wetterwarnungen gibt es ?	weather/find	O B-weather/attribute O O O
+222	Was ist die Wettervorhersage für 15:04 in Georgia für bewölkte Bedingungen in Valley View	weather/find	O O O O O B-datetime O B-location O B-condition_description O O B-location I-location
+4	Ist es heute bewölkt ?	weather/find	O O B-datetime B-weather/attribute O
+253	Wie wird das Wetter in sechs Minuten in der Nähe von Moosic sein	weather/find	O O O O B-datetime I-datetime I-datetime B-location I-location I-location O B-location O
+73	Regnet es heute ?	weather/find	B-weather/attribute O B-datetime O
+285	Wie ist das Wetter in der Nähe Triumph	weather/find	O O O O B-location I-location I-location B-location
+126	soll ich heute einen Regenschirm mitbringen	weather/find	O O B-datetime O B-weather/attribute O
+32	wie heiß wird es heute	weather/find	O B-weather/attribute O O B-datetime
+271	Wird es in Sinclair in 8 Stunden kühler	weather/find	O O O B-location B-datetime I-datetime I-datetime B-condition_temperature
+60	Ist es kalt draussen ?	weather/find	O O B-weather/attribute B-location O
+93	Wie kalt wird es am Morgen sein ?	weather/find	O B-weather/attribute O O B-datetime I-datetime O O
+88	Wie ist die 5-Tages Wettervorhersage ?	weather/find	O O O B-datetime O O
+239	Kannst du mir das Wetter für hier geben	weather/find	O O O O O O B-location O
+84	Was ist die Luftfeuchtigkeit heute ?	weather/find	O O O B-weather/attribute B-datetime O
+81	Wird morgen die Sonne scheinen ?	weather/find	O B-datetime O B-weather/attribute O O
+130	Regnet es heute ?	weather/find	B-weather/attribute O B-datetime O
+148	Wird es diese Woche schneien ?	weather/find	O O B-datetime I-datetime B-weather/attribute O
+265	Wird es in der Westsahara in 13 Stunden kalt	weather/find	O O O O B-location B-datetime I-datetime I-datetime B-condition_temperature
+201	Wird es auf der aktuellen Position bis zum 3 . März Schnee geben ?	weather/find	O O O O B-location I-location O O B-datetime I-datetime I-datetime B-condition_description O O
+147	wann hört es auf zu regnen ?	weather/find	O O O O O B-weather/attribute O
+232	Wird es um 16 Uhr in NY windig sein ?	weather/find	O O O B-datetime I-datetime O B-location B-condition_description O O
+67	Wie viele Millimeter Regen soll wir morgen bekommen ?	weather/find	O O B-weather/attribute I-weather/attribute O O B-datetime O O
+191	Wird es in der Nähe einen Sturm geben	weather/find	O O B-location I-location I-location O B-condition_description O
+94	brauche ich morgen einen Regenschirm	weather/find	O O B-datetime O B-weather/attribute
+139	Wird es am Samstag regnen ?	weather/find	O O B-datetime I-datetime B-weather/attribute O
+3	Wird es heute sonnig sein ?	weather/find	O O B-datetime B-weather/attribute O O
+262	Was ist die Wettervorhersage für in achtzehn Minuten hier für kältere Temperaturen	weather/find	O O O O O B-datetime I-datetime I-datetime B-location O B-condition_temperature O
+90	Ist es heute kalt ?	weather/find	O O B-datetime B-weather/attribute O
+209	Wird es an meinem aktuellen Standort einen Schneesturm geben	weather/find	O O O O B-location I-location O B-condition_description O
+12	Wie sieht die Prognose für die nächste Woche aus ?	weather/find	O O O O O O B-datetime I-datetime O O
+274	Wird es in La Mesa kühler ?	weather/find	O O O B-location I-location B-condition_temperature O
+115	Wird es am Samstag regnen ?	weather/find	O O B-datetime I-datetime B-weather/attribute O
+35	Wird es heute sonnig sein ?	weather/find	O O B-datetime B-weather/attribute O O
+135	Brauche ich heute einen Mantel ?	weather/find	O O B-datetime O B-weather/attribute O
+52	Wie kalt wird es heute ?	weather/find	O B-weather/attribute O O B-datetime O
+61	Ist es heute feucht ?	weather/find	O O B-datetime B-weather/attribute O
+53	wird es heute schneien	weather/find	O O B-datetime B-weather/attribute
+212	Zeige die Wettervorhersage für Wisconsin	weather/find	O O O O B-location
+133	Wird es morgen schneien ?	weather/find	O O B-datetime B-weather/attribute O
+99	Wie ist das Wetter in London ?	weather/find	O O O O O B-location O
+76	Wie heiß ist es ?	weather/find	O B-weather/attribute O O O
+117	Brauche ich heute einen Mantel ?	weather/find	O O B-datetime O B-weather/attribute O
+27	ist es draußen heiß	weather/find	O O B-location B-weather/attribute
+259	Wie wird es am 13 . Mai 2037 in Wilderville , Montenegro , sein	weather/find	O O O O B-datetime I-datetime I-datetime I-datetime O B-location O B-location O O
+109	Is es heute kalt draussen ?	weather/find	O O B-datetime B-weather/attribute B-location O
+85	Wann wird es regnen ?	weather/find	O O O B-weather/attribute O
+172	Wie ist Wettervorhersage für meinen aktuellen Standort nächstes Monat ?	weather/find	O O O O O B-location I-location B-datetime I-datetime O
+70	Wann wird es heute regnen ?	weather/find	O O O B-datetime B-weather/attribute O
+194	Sag mir , wann es in China heißer wird	weather/find	O O O O O O B-location B-condition_temperature O
+64	Wird es heute windig sein ?	weather/find	O O B-datetime B-weather/attribute O O
+127	wie wird das Wetter diese Woche ?	weather/find	O O O O B-datetime I-datetime O
+131	Wird es dieses Wochenende regnen ?	weather/find	O O B-datetime I-datetime B-weather/attribute O
+157	Wie wird das Wetter auf den Bahamas in elfeinhalb Jahren	weather/find	O O O O O O B-location O B-datetime I-datetime
+1	wie heiß wird es heute	weather/find	O B-weather/attribute O O B-datetime
+217	Wetter in Tioga Colorado	weather/find	O O B-location B-location
+215	Bitte die Vorhersage für Guinea-Bissau	weather/find	O O O O B-location
+49	Meine letzte Erinnerung löschen	reminder/cancel_reminder	B-reference I-reference O O
+101	Lösche meine Erinnerung Dad zu texten	reminder/cancel_reminder	O B-reference O B-reminder/todo I-reminder/todo I-reminder/todo
+129	Lösche alle Erinnerungen	reminder/cancel_reminder	O B-reference O
+78	Lösche alle Erinnerungen	reminder/cancel_reminder	O B-reference O
+37	Lösche alle Erinnerungen	reminder/cancel_reminder	O B-reference O
+65	Lösche alle Erinnerungen von morgen	reminder/cancel_reminder	O O O O B-datetime
+5	Lösche alle meine Erinnerungen .	reminder/cancel_reminder	O B-reference I-reference O O
+120	Lösche die Erinnerung für das Treffen in der Hütte	reminder/cancel_reminder	O O O O O B-reminder/todo I-reminder/todo I-reminder/todo I-reminder/todo
+92	Lösche meine Erinnerung um morgen Patrick von der Schule abzuholen	reminder/cancel_reminder	O B-reference O O B-datetime B-reminder/todo I-reminder/todo I-reminder/todo I-reminder/todo I-reminder/todo
+17	Alle Erinnerungen löschen	reminder/cancel_reminder	B-reference O O
+71	zeige alle Wecker	alarm/show_alarms	O B-reference O
+14	Alle Wecker anzeigen	alarm/show_alarms	B-reference O O
+18	Zeige mir alle meine Weckzeiten	alarm/show_alarms	O O B-reference O O
+79	Alle Wecker anzeigen	alarm/show_alarms	B-reference O O
+24	zeige alle Wecker	alarm/show_alarms	O B-reference O
+42	Wie viele Wecker habe ich für Sonntag gestellt ?	alarm/show_alarms	O O O O O O B-datetime O O
+123	zeige alle Wecker	alarm/show_alarms	O B-reference O
+34	Alle Wecker anzeigen	alarm/show_alarms	B-reference O O
+6	Welche Wecker habe ich gestellt ?	alarm/show_alarms	O O O O O O
+43	zeige alle Wecker	alarm/show_alarms	O B-reference O
+138	Stelle einen Wecker alle zehn Minuten ein , der um 5:30 Uhr beginnt und um 6 Uhr morgens endet .	alarm/set_alarm	O O O B-recurring_datetime I-recurring_datetime I-recurring_datetime O O O O B-recurring_datetime I-recurring_datetime I-recurring_datetime I-recurring_datetime I-recurring_datetime I-recurring_datetime I-recurring_datetime I-recurring_datetime I-recurring_datetime O
+113	stelle den Wecker für Montag um 3 Uhr früh ein	alarm/set_alarm	O O O O B-datetime I-datetime I-datetime I-datetime I-datetime O
+110	Setze einen Wecker für 17 Uhr heute Abend	alarm/set_alarm	O O O O B-datetime I-datetime I-datetime I-datetime
+45	Wecker für 615 Uhr früh einstellen	alarm/set_alarm	O O B-datetime I-datetime O O
+39	Bitte stelle meinen Wecker diesen Samstag auf 4 Uhr morgens .	alarm/set_alarm	O O B-reference O B-datetime I-datetime I-datetime I-datetime I-datetime I-datetime O
+21	Stelle den Wecker für morgen um 7 Uhr früh	alarm/set_alarm	O O O O B-datetime I-datetime I-datetime I-datetime I-datetime
+8	setze einen Alarm für alle 3 Minuten	alarm/set_alarm	O O O O B-recurring_datetime I-recurring_datetime I-recurring_datetime
+38	stellen einen Alarm für fünfzehn Minuten	alarm/set_alarm	O O O O B-datetime I-datetime
+102	setze den Wecker auf 6 Uhr früh	alarm/set_alarm	O O O O B-datetime I-datetime I-datetime
+144	Stelle den Wecker für 6:30 Uhr morgen .	alarm/set_alarm	O O O O B-datetime I-datetime I-datetime O
+15	Wecker alle 5 Minuten für 20 Minuten bitte	alarm/set_alarm	O B-recurring_datetime I-recurring_datetime I-recurring_datetime I-recurring_datetime I-recurring_datetime I-recurring_datetime O
+7	Ich brauche einen Wecker für 17 Uhr , um mich daran zu erinnern , meine Medizin einzunehmen	alarm/set_alarm	O O O O O B-datetime I-datetime O O O O O O O O B-reminder/todo I-reminder/todo
+30	Stelle den Wecker für 6 Uhr morgens am Mittwoch	alarm/set_alarm	O O O O B-datetime I-datetime I-datetime I-datetime I-datetime
+20	erstelle einen Wecker für morgen 6 Uhr früh	alarm/set_alarm	O O O O B-datetime I-datetime I-datetime I-datetime
+29	Wecker ein	alarm/set_alarm	O O
+124	erstelle einen neuen Alarm für Donnerstag um 1 Uhr nachmittags	alarm/set_alarm	O O O O O B-datetime I-datetime I-datetime I-datetime I-datetime
+62	Stelle einen Wecker für jede Minute für 11 Minuten	alarm/set_alarm	O O O O B-recurring_datetime I-recurring_datetime I-recurring_datetime I-recurring_datetime I-recurring_datetime
+89	setze den Wecker auf 6 Uhr früh	alarm/set_alarm	O O O O B-datetime I-datetime I-datetime
+140	Stelle den Wecker auf 7:20 Uhr morgens für die Schuhveröffentlichung	alarm/set_alarm	O O O O B-datetime I-datetime I-datetime O O B-reminder/todo
+54	stelle den Wecker auf 5 Uhr morgens ein	alarm/set_alarm	O O O O B-datetime I-datetime I-datetime O
+114	Wecker ein	alarm/set_alarm	O O
+22	setze den Wecker auf 6 Uhr früh	alarm/set_alarm	O O O O B-datetime I-datetime I-datetime
+46	Erstelle zwei Wecker für Morgen früh	alarm/set_alarm	O O O O B-datetime I-datetime
+116	Erstelle einen Wecker für 5 Uhr morgens	alarm/set_alarm	O O O O B-datetime I-datetime I-datetime
+122	Schalte alle Wecker aus .	alarm/cancel_alarm	O B-reference O O O
+59	Lösche meinen Wecker am Samstag	alarm/cancel_alarm	O B-reference O B-datetime I-datetime
+75	lösche meinen Wecker von morgen früh	alarm/cancel_alarm	O B-reference O O B-datetime I-datetime
+56	alle Wecker löschen	alarm/cancel_alarm	B-reference O O
+72	Schalte alle Wecker aus	alarm/cancel_alarm	O B-reference O O
+41	entferne alle Wecker	alarm/cancel_alarm	O B-reference O
+107	alle Wecker löschen	alarm/cancel_alarm	B-reference O O
+33	Lösche alle eingestellten Alarme .	alarm/cancel_alarm	O B-reference O O O
+55	schalte den Wecker aus	alarm/cancel_alarm	O O O O
+105	schalte den Wecker aus	alarm/cancel_alarm	O O O O
+149	schalte den Wecker aus	alarm/cancel_alarm	O O O O
+82	Lösche den Wecker für morgen früh	alarm/cancel_alarm	O O O O B-datetime I-datetime
+25	Schalte alle Wecker aus	alarm/cancel_alarm	O B-reference O O
+19	Lösche Wecker	alarm/cancel_alarm	O O
+80	lösche meinen Wecker von morgen früh	alarm/cancel_alarm	O B-reference O O B-datetime I-datetime
+10	Lösche den Alarm von heute Nachmittag	alarm/cancel_alarm	O O O O B-datetime I-datetime
+97	Lösche alle Wecker	alarm/cancel_alarm	O B-reference O
+47	Schalte alle Wecker aus	alarm/cancel_alarm	O B-reference O O
+118	schalte den Wecker aus	alarm/cancel_alarm	O O O O
+104	lösche den Wecker	alarm/cancel_alarm	O O O
+96	Stoppe den Wecker von 6:00 Uhr früh	alarm/cancel_alarm	O O O O B-datetime I-datetime I-datetime
+103	Schalte den Wecker aus	alarm/cancel_alarm	O O O O
+134	Zeige alle Erinnerungen	reminder/show_reminders	O B-reference O
+63	Zeige meine Erinnerung	reminder/show_reminders	O B-reference O
+58	Zeige meine Erinnerung	reminder/show_reminders	O B-reference O
+100	Was sind meine Erinnerungen ?	reminder/show_reminders	O O B-reference O O
+74	Zeige alle Erinnerungen für morgen	reminder/show_reminders	O B-reference O O B-datetime
+146	Ist mein Zahnarzttermin in meiner Erinnerung ?	reminder/show_reminders	O B-reminder/todo I-reminder/todo O B-reference O O
+95	Zeige meine Erinnerung	reminder/show_reminders	O B-reference O
+26	Was sind meine Erinnerungen ?	reminder/show_reminders	O O B-reference O O
+13	Lese mir meine Erinnerungen vor .	reminder/show_reminders	O O B-reference O O O
+83	zeige alle Erinnerungen für morgen früh	reminder/show_reminders	O O O O B-datetime I-datetime
+87	zeige mir meine Erinnerungen an	reminder/show_reminders	O O B-reference O O
+145	Habe ich irgendwelche Erinnerungen gesetzt ?	reminder/show_reminders	O O O O O O
+16	Ändere den Wecker morgen auf 6 Uhr früh	alarm/modify_alarm	O O O B-datetime I-datetime I-datetime I-datetime I-datetime
+23	Ich brauche eine Erinnerung um Lisa abzuholen	reminder/set_reminder	O O O O O B-reminder/todo I-reminder/todo
+50	Erstelle eine Erinnerung um später zum Supermarkt zu gehen	reminder/set_reminder	O O O O B-datetime B-reminder/todo I-reminder/todo I-reminder/todo I-reminder/todo
+91	Setze eine Erinnerung meine Schule am Montag um 4 Uhr nachmittags anzurufen	reminder/set_reminder	O O O O B-reminder/todo O B-datetime I-datetime I-datetime I-datetime I-datetime B-reminder/todo
+31	erinnere mich , meinen Vorlesungsplan einzureichen , jeden Montag bis zum Ende des Tages	reminder/set_reminder	O O O B-reminder/todo I-reminder/todo I-reminder/todo O B-recurring_datetime I-recurring_datetime I-recurring_datetime I-recurring_datetime I-recurring_datetime I-recurring_datetime I-recurring_datetime
+77	erinnere mich , heute Abend Milch zu kaufen	reminder/set_reminder	O O O B-datetime I-datetime B-reminder/todo I-reminder/todo I-reminder/todo
+125	Erinnere mich am nächsten Montag zum Zahnarzt zu gehen	reminder/set_reminder	O O O B-datetime I-datetime O B-reminder/todo I-reminder/todo I-reminder/todo
+68	Erinnere mich an die Hochzeit	reminder/set_reminder	O O O O B-reminder/todo
+143	Erinnere mich , morgen um 7:30 Uhr früh Dans Mittagessen zu machen .	reminder/set_reminder	O O O B-datetime I-datetime I-datetime I-datetime I-datetime B-reminder/todo I-reminder/todo I-reminder/todo I-reminder/todo O
+132	Erstelle eine Erinnerung für Mamas Besuch nächste Woche	reminder/set_reminder	O O O O B-reminder/todo I-reminder/todo B-datetime I-datetime
+106	Erinnere mich Mama heute Nachmittag um 2 Uhr anzurufen	reminder/set_reminder	O O B-reminder/todo B-datetime I-datetime I-datetime I-datetime I-datetime B-reminder/todo
+40	Erinnere mich an die Hausschließung morgen um 10 Uhr am Vormittag	reminder/set_reminder	O O O O B-reminder/todo B-datetime I-datetime I-datetime I-datetime I-datetime I-datetime
+137	Erinnere mich heute Nachmittag bei Starbucks Kaffee zu kaufen	reminder/set_reminder	O O B-datetime I-datetime O B-reminder/todo I-reminder/todo I-reminder/todo I-reminder/todo
+57	Erstelle eine Erinnerung , um morgen um 11 Uhr schwimmen zu gehen	reminder/set_reminder	O O O O O B-datetime I-datetime I-datetime I-datetime B-reminder/todo I-reminder/todo I-reminder/todo
+28	Schlummer den Alarm	alarm/snooze_alarm	O O O
+69	Schlummere alle Wecker	alarm/snooze_alarm	O B-reference O
+165	Gib A Tale of Time City 2 von 6 Punkten	RateBook	O B-object_name I-object_name I-object_name I-object_name I-object_name B-rating_value O B-best_rating B-rating_unit
+236	For Mirrorshades bewerte ich mit drei Sternen	RateBook	O B-object_name O O O B-rating_value B-rating_unit
+229	Vergib 0 Punkte von 6 an The Gate of Worlds	RateBook	O B-rating_value B-rating_unit O B-best_rating O B-object_name I-object_name I-object_name I-object_name
+182	Bewerte das aktuelle Buch mit drei Sternen	RateBook	O O B-object_select B-object_type O B-rating_value B-rating_unit
+267	Bewerte den aktuellen Aufsatz mit drei von 6 Sternen	RateBook	O O B-object_select B-object_type O B-rating_value O B-best_rating B-rating_unit
+269	bewerte den aktuellen Roman 0 von 6	RateBook	O O B-object_select B-object_type B-rating_value O B-best_rating
+150	Ich würde Half a Life 3 von 6 geben	RateBook	O O B-object_name I-object_name I-object_name B-rating_value O B-best_rating O
+281	Bewerte The Art of Nijinsky mit 5 Punkten	RateBook	O B-object_name I-object_name I-object_name I-object_name O B-rating_value B-rating_unit
+275	Bewerte diesen Aufsatz mit 2 von 6 Sternen	RateBook	O B-object_select B-object_type O B-rating_value O B-best_rating B-rating_unit
+276	Gib drei Sterne / 6 an My Sister , My Love	RateBook	O B-rating_value B-rating_unit O B-best_rating O B-object_name I-object_name I-object_name I-object_name I-object_name
+166	füge diesem aktuellen Buch fünf Sterne hinzu	RateBook	O O B-object_select B-object_type B-rating_value B-rating_unit O
+198	Ich gebe Hadon von Ancient Opar zwei von 6 Punkten	RateBook	O O B-object_name I-object_name I-object_name I-object_name B-rating_value O B-best_rating B-rating_unit
+161	Gib dem aktuellen Roman eine Bewertung von 3 von 6	RateBook	O O B-object_select B-object_type O O O B-rating_value O B-best_rating
+185	Gib fünf Punkte an The Tenor Wore Tapshoes	RateBook	O B-rating_value B-rating_unit O B-object_name I-object_name I-object_name I-object_name
+174	Das aktuelle Album erhält drei von 6 Punkten	RateBook	O B-object_select B-object_type O B-rating_value O B-best_rating B-rating_unit
+188	Spiele Musik aus der Get Your Mind Right-Wiedergabeliste	PlayMusic	O O O O B-playlist I-playlist I-playlist I-playlist
+203	spiele einen Track von 2004	PlayMusic	O O B-music_item O B-datetime
+243	Verwende Groove Shark , um Musik aus den achtziger Jahren zu spielen	PlayMusic	O B-service I-service O O O O O B-datetime I-datetime O O
+181	spiele Fereydoun Farrokhzad besten Track	PlayMusic	O B-artist I-artist B-sort B-music_item
+254	Ich möchte Musik aus den Fünfzigern hören .	PlayMusic	O O O O O B-datetime O O
+159	Spiele Opernmusik auf Google Music	PlayMusic	O B-genre O B-service I-service
+200	Spiele Musik auf Lastfm	PlayMusic	O O O B-service
+293	spielen vierzig Lieder	PlayMusic	O B-datetime O
+186	Spiele ein Lied von Houston auf Spotify	PlayMusic	O O B-music_item O B-artist O B-service
+247	Öffne Spotify und spiele ein Lied aus den zwanziger Jahren von Richard Harvey	PlayMusic	O B-service O O O B-music_item O O B-datetime I-datetime O B-artist I-artist
+228	Spiele ein Lied von Juanes auf Last Fm	PlayMusic	O O B-music_item O B-artist O B-service I-service
+179	Ich möchte ein concerto von Timour Moutsouraev hören .	PlayMusic	O O O B-music_item O B-artist I-artist O O
+249	Spiele das Album Vibrations von Marion Elise Raven	PlayMusic	O O B-music_item B-album O B-artist I-artist I-artist
+211	Spiele die beliebtesten Schallplatten der zwanziger Jahre von Leland Sklar	PlayMusic	O O B-sort I-sort O B-datetime I-datetime O B-artist I-artist
+156	spiele Luis Alfonzo Larrain von 1995	PlayMusic	O B-artist I-artist I-artist O B-datetime
+192	Spiele einige Lieder aus den Achtzigern auf Spotify	PlayMusic	O O B-music_item O O B-datetime O B-service
+258	Spiel das beste Lied von Charles Neidich	PlayMusic	O O B-sort B-music_item O B-artist I-artist
+230	Spiele etwas von David Mallett auf last fm	PlayMusic	O O O B-artist I-artist O B-service I-service
+252	Spielen Sie die Top-20-Songs von The Kleptones auf Spotify	PlayMusic	O O O B-sort O B-artist I-artist O B-service
+177	spiele Top-Songs von Joseph Utsler	PlayMusic	O B-sort O B-artist I-artist
+151	Spiele Mf Doom aus den sixties auf Pandora .	PlayMusic	O B-artist I-artist O O B-datetime O B-service O
+153	Spiele shadowplay von Dana auf Deezer .	PlayMusic	O B-track O B-artist O B-service O
+295	Spiele Musik auf iTunes	PlayMusic	O O O B-service
+180	spiele das Album Everybody Happy von Lee Aaron	PlayMusic	O O B-music_item B-album I-album O B-artist I-artist
+288	Zeige of From South Africa to South Carolina	SearchCreativeWork	B-object_type O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name
+218	Ich möchte Musik von Ghost in the Shell hören: Stand Alone Complex	SearchCreativeWork	O O O O B-object_name I-object_name I-object_name I-object_name O B-object_name I-object_name I-object_name
+251	Ich möchte die Show From Where to Eternity finden .	SearchCreativeWork	O O O B-object_type B-object_type I-object_type I-object_type I-object_type O O
+234	Finde ein Videospiel namens IBM Program temporary fix	SearchCreativeWork	O O B-object_type O B-object_name I-object_name I-object_name I-object_name
+176	Ich möchte das Album hören Since I Saw You Last	SearchCreativeWork	O O O B-object_type O B-object_name I-object_name I-object_name I-object_name I-object_name
+284	finde The Ultimate Gift , eine Fernsehsendung	SearchCreativeWork	O B-object_name I-object_name I-object_name O O B-object_type
+256	Finde ein Foto von Adventure Time: The Secret of the Nameless Kingdom	SearchCreativeWork	O O B-object_type O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name
+205	Zeige die TV-Show Limit of Love: Umizaru	SearchCreativeWork	O O B-object_type B-object_name I-object_name I-object_name I-object_name
+164	Finde das Bild Louder Than Bombs	SearchCreativeWork	O O B-object_type B-object_name I-object_name I-object_name
+244	Finde den Soundtrack mit Namen The House of the Yellow Carpet	SearchCreativeWork	O O B-object_type O O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name
+296	zeige book name Straight No Chase	SearchCreativeWork	O B-object_type O B-object_name I-object_name I-object_name
+152	Suche nach Chasing Fortune eine TV-Serie .	SearchCreativeWork	O O B-object_name I-object_name O B-object_type O
+225	Finde einen Trailer namens Storm Center .	SearchCreativeWork	O O B-object_type O B-object_name I-object_name O
+193	Wo finde ich The World According to Paris ?	SearchCreativeWork	O O O B-object_name I-object_name I-object_name I-object_name I-object_name O
+241	Ich würde gerne die Saga 12 Soulful Nights of Christmas sehen	SearchCreativeWork	O O O O B-object_type B-object_name I-object_name I-object_name I-object_name I-object_name O
+213	Finde ein Foto namens Between the Days	SearchCreativeWork	O O B-object_type O B-object_name I-object_name I-object_name
+261	Finde eine TV-Serie namens Church of the Truly Warped .	SearchCreativeWork	O O B-object_type O B-object_name I-object_name I-object_name I-object_name I-object_name O
+206	Zeig mir das Foto Rock You Baby	SearchCreativeWork	O O O B-object_type B-object_name I-object_name I-object_name
+219	Zeig mir Happiness Was Free .	SearchCreativeWork	O O B-object_name I-object_name I-object_name O
+291	Finde ein Restaurant in FM , das Quiche serviert	BookRestaurant	O O B-restaurant_type O B-location O O B-served_dish O
+169	Buche Mittagessen in Boreas für eine Party von 8 Personen	BookRestaurant	O B-datetime O B-restaurant_name O O O O B-party_size_number O
+280	Finden eine Reservierung für eine Taverne , die Pizza für eine Gruppe von 6 Personen serviert	BookRestaurant	O O O O O B-restaurant_type O O B-served_dish O O O O B-party_size_number O O
+237	Buche ein Restaurant in Colorado City Idaho , das Agnolotti serviert .	BookRestaurant	O O B-restaurant_type O B-location I-location B-location O O B-served_dish O O
+273	Buch für 3 in den US-amerikanischen Jungferninseln	BookRestaurant	O O B-party_size_number O O B-location I-location
+292	Buchen eine Reservierung für 7 Personen im The French Laundry am 8 . Juni 2029	BookRestaurant	O O O O B-party_size_number O O B-restaurant_name I-restaurant_name I-restaurant_name O B-datetime I-datetime I-datetime I-datetime
+268	Finde eine Reservierung für drei Personen in einem Restaurant mit Top-Bewertungen	BookRestaurant	O O O O B-party_size_number O O O B-restaurant_type O B-sort
+289	Buche in sieben Wochen eine Osteria mit Top-Bewertungen	BookRestaurant	O B-datetime I-datetime I-datetime O B-restaurant_type O B-sort
+298	In diesem Winter wollen Meredith , Betty und Erika in einem Gastropub essen , der sich in der gleichen Gegend wie Frans Standort befindet .	BookRestaurant	O B-datetime I-datetime O B-party_size_description I-party_size_description I-party_size_description I-party_size_description I-party_size_description O O B-restaurant_type O O O O B-location I-location I-location I-location O B-location I-location O O
+184	Buche einen Tisch für 10 Personen in einem Restaurant mit Internet .	BookRestaurant	O O O O B-party_size_number O O O B-restaurant_type O B-facility O
+264	Stacy Watson und Adriana wollen heute Nachmittag in die beste Osteria in Hallowell Minnesota gehen	BookRestaurant	B-party_size_description I-party_size_description I-party_size_description I-party_size_description O B-datetime I-datetime O O B-sort B-restaurant_type O B-location B-location O
+233	Buche ein Restaurant für neun in Statham	BookRestaurant	O O B-restaurant_type O B-party_size_number O B-location
+221	Buche einen Tisch in der Umgebung von Fairview	BookRestaurant	O O B-restaurant_type O O B-location O B-location
+242	Ich brauche eine Reservierung für 18 Uhr . mit einer Gruppe von 10 am Sand Lake	BookRestaurant	O O O O O B-datetime I-datetime O O O O O B-party_size_number O B-location I-location
+154	ich und Imelda wollen eine Reservierung in Missouri um sieben Uhr morgens	BookRestaurant	B-party_size_description I-party_size_description I-party_size_description O O O O B-location O B-datetime I-datetime I-datetime
+199	Ich möchte Shawn , Marguerite und Della an einen Ort in der Nähe von Ruanda bringen , an dem man essen kann .	BookRestaurant	O O B-party_size_description I-party_size_description I-party_size_description I-party_size_description I-party_size_description O O O O O B-location O B-location O O O O O O O O
+163	Ich brauche einen Tisch für 4 Personen in einem Restaurant gegen 0 Uhr früh .	BookRestaurant	O O O O O B-party_size_number O O O B-restaurant_type O B-datetime I-datetime I-datetime O
+202	Finde mir einen Tisch für 8 in Hollenberg in neun Wochen	BookRestaurant	O O O O O B-party_size_number O B-location B-datetime I-datetime I-datetime
+168	Buche in der Nähe von Montana ein srilankisches Restaurant für 6 Personen , das hoch bewertet ist am Dienstag .	BookRestaurant	O O B-location I-location O B-location O B-cuisine B-restaurant_type O B-party_size_number O O O B-sort O O O B-datetime O
+214	Buche bei The Halal Guys am 17 . Oktober	BookRestaurant	O O B-restaurant_name I-restaurant_name I-restaurant_name O B-datetime I-datetime I-datetime
+248	Ich möchte ein Restaurant buchen	BookRestaurant	O O O B-restaurant_type O
+189	Buche einen Tisch heute für acht Personen in einem Steakhouse da Sashimi serviert	BookRestaurant	O O B-restaurant_type B-datetime O B-party_size_number O O O B-restaurant_type O B-served_dish O
+263	Buche ein Restaurant um 16 Uhr in SC	BookRestaurant	O O B-restaurant_type O B-datetime I-datetime O B-location
+173	Buche eine Reservierung für 1 am 17 . März	BookRestaurant	O O O O B-party_size_number O B-datetime I-datetime I-datetime
+210	Buche einen Tisch für mich und meinen Stiefonkel in Malta in einer Cafeteria	BookRestaurant	O O O O B-party_size_description I-party_size_description I-party_size_description I-party_size_description O B-location O O B-restaurant_type
+235	Finde einen Tisch für eine Person in einer beliebten Churrascaria in 3 Wochen ab heute	BookRestaurant	O O O O B-party_size_number O O O B-sort B-restaurant_type O B-datetime I-datetime I-datetime I-datetime
+299	Füge Lied meiner Para comer hinzu	AddToPlaylist	O B-music_item B-reference B-playlist I-playlist O
+162	Ich möchte dieses Album zu funtime hinzufügen .	AddToPlaylist	O O O B-music_item O B-playlist O O
+170	Bitte füge ein anderes Lied in die laundry-Playlist ein .	AddToPlaylist	O O O O B-music_item O O B-playlist O O
+246	Füge morten harket zu this is puccini hinzu	AddToPlaylist	O B-artist I-artist O B-playlist I-playlist I-playlist O
+287	Bitte setze ein Album von Joseph Meyer auf meine POP GOES THE 80s Playlist	AddToPlaylist	O O O B-music_item O B-artist I-artist O B-reference B-playlist I-playlist I-playlist I-playlist I-playlist
+226	lege dieses Album auf meine dubstep dangles dirty playlist	AddToPlaylist	O O B-music_item O B-reference B-playlist I-playlist I-playlist O
+257	Setze Do You Love Me auf meine acoustig Soul-Playlist	AddToPlaylist	O B-entity_name I-entity_name I-entity_name I-entity_name O B-reference B-playlist I-playlist
+216	Fügen Sie dieses Lied meiner perfekten italienischem dinner-Wiedergabeliste hinzu	AddToPlaylist	O O O B-music_item B-reference B-playlist I-playlist I-playlist O
+238	Füge bright and breezy zu meiner This Is Gucci Mane-Wiedergabeliste	AddToPlaylist	O B-entity_name I-entity_name I-entity_name O B-reference B-playlist I-playlist I-playlist I-playlist
+240	Füge Ashley McIsaac zu meiner R & B-Partyklassiker-Wiedergabeliste hinzu	AddToPlaylist	O B-artist I-artist O B-reference B-playlist I-playlist I-playlist O
+272	füge diese Melodie zu meiner in the arms of a woman hinzu	AddToPlaylist	O O B-music_item O B-reference B-playlist I-playlist I-playlist I-playlist I-playlist I-playlist O
+279	Füge cross bones style zu Guest List TaKe hinzu	AddToPlaylist	O B-entity_name I-entity_name I-entity_name O B-playlist I-playlist I-playlist O
+175	Füge das Lied Nastya Kamenskih zu meiner Wiedergabeliste The Martin Garrix Show hinzu .	AddToPlaylist	O O B-music_item B-artist I-artist O B-reference O B-playlist I-playlist I-playlist I-playlist O O
+282	Füge Jacob Hoggard zu meiner get going-Wiedergabeliste hinzu	AddToPlaylist	O B-artist I-artist O B-reference B-playlist I-playlist O
+208	Setze Kan Mikami auf die Pre-Party R & B Jams	AddToPlaylist	O B-artist I-artist O O B-playlist I-playlist I-playlist I-playlist I-playlist
+266	Fügen Armen Movsessian zu dieser Skepta-Wiedergabeliste hinzu	AddToPlaylist	O B-artist I-artist O O B-playlist O
+250	Füge diesen Künstler meiner Jazz-Wiedergabeliste hinzu	AddToPlaylist	O O B-music_item B-reference B-playlist O
+155	füge bob klose zu la mejor música para tus fiestas hinzu	AddToPlaylist	O B-artist I-artist O B-playlist I-playlist I-playlist I-playlist I-playlist I-playlist O
+167	füge Track 70s Smash Hits zu meinem	AddToPlaylist	O B-music_item B-playlist I-playlist I-playlist O B-reference
+190	Finde Animationsfilme bei Caribbean Cinemas	SearchScreeningEvent	O B-movie_type O B-location I-location
+270	Ich würde gerne den Vorstellungsbeginn für Silly Movie 2 . 0 im Kino sehen	SearchScreeningEvent	O O O O O O B-movie_name I-movie_name I-movie_name I-movie_name I-movie_name O B-object_location_type O
+294	Wann werden die Santikos-Kinos Animationsfilme zeigen ?	SearchScreeningEvent	O O O B-location B-movie_type O O
+260	Finde das Kinoprogramm für ArcLight Hollywood .	SearchScreeningEvent	O O B-object_type O B-location I-location O
+277	Finde das Kinoprogramm für Marcus Corporation .	SearchScreeningEvent	O O B-object_type O B-location I-location O
+286	Wann kann ich A Handful of Dust im Kino sehen	SearchScreeningEvent	O O O B-movie_name I-movie_name I-movie_name I-movie_name O B-object_location_type O
+223	Kann ich die Filmpläne sehen ?	SearchScreeningEvent	O O O B-object_type I-object_type O
+255	Um welche Zeit is Utamaro und seine fünf Frauen im Alamo Drafthouse Cinema zu sehen ?	SearchScreeningEvent	O O O O B-movie_name I-movie_name I-movie_name I-movie_name I-movie_name O B-location I-location I-location O O O
+245	Welches ist das nächste Kino , in dem Filme gezeigt werden , die in neunzehn Sekunden beginnen ?	SearchScreeningEvent	O O O B-location B-object_location_type O O O B-movie_type O O O O B-datetime I-datetime I-datetime O O
+227	Was ist das Kinoprogramm	SearchScreeningEvent	O O O B-object_type
+204	Sage mir , welche Filme laufen derzeit in den AMC Theatern	SearchScreeningEvent	O O O O B-movie_type O O O O B-location I-location
+283	Gib mir eine Liste der Beginnszeiten für Filme in der Umgebung .	SearchScreeningEvent	O O O O O B-object_type O B-movie_type B-location I-location I-location O
+290	Welches Kino zeigt Flower and Snake um 08:56:29 ?	SearchScreeningEvent	O B-object_location_type O B-movie_name I-movie_name I-movie_name O B-datetime O
+178	Finde das Programm für Ghost World .	SearchScreeningEvent	O O B-object_type O B-movie_name I-movie_name O
+224	Finde ein Kino in der Nähe , das Operation: Kingdom zeigt	SearchScreeningEvent	O O B-object_location_type B-location I-location I-location O O B-movie_name I-movie_name O
+197	Find The Twinkler der in 2 Minuten bei National Amusements spielt	SearchScreeningEvent	O B-movie_name I-movie_name O B-datetime I-datetime I-datetime O B-location I-location O
+195	Was sind die Spielzeiten für die Caribbean Cinemas ?	SearchScreeningEvent	O O O B-object_type O O B-location I-location O
+207	läuft Tarzan of the Apes in den Cobb Theatern ?	SearchScreeningEvent	O B-movie_name I-movie_name I-movie_name I-movie_name O O B-location I-location O
+297	Finden Sie die Filmpläne für Filme in der Nähe	SearchScreeningEvent	O O O B-object_type O B-movie_type O O B-location
+231	Finde das Kinoprogramm	SearchScreeningEvent	O O B-object_type
+278	Welche Filme sind in der Nachbarschaft geplant ?	SearchScreeningEvent	O B-movie_type O B-location I-location I-location O O
+187	Finde ein Kino das Life and Death spielt	SearchScreeningEvent	O O B-object_location_type O B-movie_name I-movie_name I-movie_name O
+160	finde Vegucated starte zu Mittag	SearchScreeningEvent	O B-movie_name O O B-datetime

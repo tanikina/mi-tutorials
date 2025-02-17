@@ -1,0 +1,25 @@
+id	text	intent	slots
+28846	Wie lautet die heutige Vorhersage ?	weather/find	O O B-datetime O O O
+35551	Wettervorhersage von LakeBay	weather/find	O B-location I-location
+14554	Wann hört der Regen auf ?	weather/find	O O O B-weather/attribute O O
+20819	Soll ich heute einen Regenschirm mitbringen ?	weather/find	O B-datetime I-datetime B-weather/attribute I-weather/attribute O B-datetime
+1990	Alarmieren Sie alle 10 Minuten 60 Minuten .	alarm/set_alarm	O B-recurring_datetime O B-recurring_datetime I-recurring_datetime I-recurring_datetime I-recurring_datetime O
+27617	Alarmieren Sie morgen um 3 Uhr 30 .	alarm/set_alarm	O O O O O O O O
+19989	Schalten Sie alle Alarmanlagen ein .	alarm/set_alarm	B-reference O B-reference O O O
+29618	Um wie viel Uhr ist mein nächster Alarm ?	alarm/show_alarms	O O O O O O O O O
+25057	Was ist der letzte Alarm ?	alarm/show_alarms	O O O O O O
+10720	Zeigt heute alle Alarmbereitschaft .	alarm/show_alarms	O B-datetime B-reference O O
+14707	Erinnern Sie mich daran , den Arzt für Testergebnisse zu rufen .	reminder/set_reminder	O B-reminder/todo I-reminder/todo O B-reminder/todo I-reminder/todo I-reminder/todo I-reminder/todo I-reminder/todo I-reminder/todo I-reminder/todo I-reminder/todo
+2930	Erinnern Sie mich daran , Ende dieser Woche einen Arzttermin festzustellen .	reminder/set_reminder	O B-reminder/todo O O B-reminder/todo O B-datetime I-datetime B-reminder/todo I-reminder/todo I-reminder/todo I-reminder/todo
+19411	Ich brauche eine Erinnerung heute Abend um 6 Uhr .	reminder/set_reminder	B-datetime O B-datetime O B-datetime I-datetime I-datetime I-datetime O O
+10812	Kannst du meinen Wecker 30 Minuten zurückdrücken ?	alarm/modify_alarm	O B-reference B-datetime O B-datetime I-datetime O O
+25034	Ändern Sie meinen 6 . 30 Uhr Wecker auf 7 . 30 Uhr .	alarm/modify_alarm	O O O B-datetime O O O O O O O O O O
+21505	Verschieben Sie morgen die Alarmanlage für 9 statt 8 Uhr .	alarm/modify_alarm	O B-datetime I-datetime O O B-datetime I-datetime O B-datetime O O
+27545	Zeig mir meine Erinnerungen .	reminder/show_reminders	O B-reference I-reference O O
+31578	Fügen Sie meine Reiseplaylist hinzu .	AddToPlaylist	O B-artist I-artist B-playlist B-artist O
+32069	Füge diese Melodie zu meiner playlisten Gästeliste hinzu .	AddToPlaylist	O O B-music_item B-reference I-reference O B-playlist I-playlist I-playlist
+43320	Finde Filmpläne .	SearchScreeningEvent	O B-object_type O
+42156	Was ist das nächste Kino , das Chuckys Baby spielt ?	SearchScreeningEvent	O O B-datetime B-location B-object_location_type O O B-movie_name I-movie_name O O
+43565	Was ist das nächste Filmhaus im Mai ?	SearchScreeningEvent	O O O B-location B-object_location_type O B-movie_name O
+41816	Finde die Filmpläne .	SearchScreeningEvent	O O B-object_type O
+42992	Finde ein Kino neben Sulle Sathya .	SearchScreeningEvent	O B-location B-object_location_type B-location B-movie_name I-movie_name B-location
