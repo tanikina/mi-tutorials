@@ -13,4 +13,6 @@
 | Logit Lens Example | Logit Lens | [LogitLens](https://github.com/tanikina/mi-tutorials/blob/main/notebooks/LogitLens.ipynb)      | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tanikina/mi-tutorials/blob/main/notebooks/LogitLens.ipynb) |
 
 ### Mini Project on Token Attribution
-[Mini Project](https://github.com/tanikina/mi-tutorials/blob/main/notebooks/MiniProject_Token_Attribution.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tanikina/mi-tutorials/blob/main/notebooks/MiniProject_Token_Attribution.ipynb)
+|               |             |
+|:--------------|:------------|
+| [Mini Project](https://github.com/tanikina/mi-tutorials/blob/main/notebooks/MiniProject_Token_Attribution.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tanikina/mi-tutorials/blob/main/notebooks/MiniProject_Token_Attribution.ipynb) |
