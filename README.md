@@ -16,3 +16,4 @@
 |               |             |
 |:--------------|:------------|
 | [Mini Project](https://github.com/tanikina/mi-tutorials/blob/main/notebooks/MiniProject_Token_Attribution.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tanikina/mi-tutorials/blob/main/notebooks/MiniProject_Token_Attribution.ipynb) |
+| [Mini Project (with solution)](https://github.com/tanikina/mi-tutorials/blob/main/notebooks/MiniProject_Token_Attribution_Solution.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tanikina/mi-tutorials/blob/main/notebooks/MiniProject_Token_Attribution_Solution.ipynb) |
